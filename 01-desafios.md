@@ -15,7 +15,7 @@ Informe quem ficou em 1º, 2º e 3º lugar em cada disciplina.
 
 ### Resposta
 
-- Aristóteles não ficou em primeiro em Química e perdeu para Platão em Matemática, logo ficou em primeiro em Física.
+- Aristóteles não ficou em primeiro em Química e perdeu para Platão em Matemática, Como perdeu para Platão em Matemática, não ficou também em primeiro. Logo só pode ter ficado em primeiro em Física.
 - Sócrates perdeu para Platão em Física, e como já vimos que Aristóteles ficou em 1º, logo Platão ficou em 2º e Sócrates em 3º.
 - Como Platão acertou mais que Aristóteles e Platão já tem um 2º lugar em Física não poderá ter um segundo lugar, logo Platão ficou em 1º em Matemática. 
 - Como já temos agora dois primeiros lugar, o 1º lugar que sobra é para Sócrates em Química.
