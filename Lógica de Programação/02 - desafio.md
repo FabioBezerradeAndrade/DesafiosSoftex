@@ -20,6 +20,6 @@ Observando a sala como uma matriz, no primeiro instante temos uma matriz 5x5. Ne
 
 Ao chegar os demais alunos, sendo 7 que gostam de P e 4 que preferem M, a organização da sala foi acrescido uma coluna e uma linha, sendo agora uma matriz 6x6.
 
-Nesse modelo 2 ficou um total de 36 alunos, sendo 18 que prefere M e 18 que gostam de P, e a distribuição pode ficar padronizada em 3 para 2, tanto em coluna quanto em linha.
+Nesse modelo 2 ficou um total de 36 alunos, sendo 18 que prefere M e 18 que gostam de P, e a distribuição pode ficar padronizada em 4 para 2, tanto em coluna quanto em linha.
 
-Ao sair da sala e depois retornar ele pode perceber que houve mudança nas posições S43 e S55 (onde S representa a matriz Sala, e o primeiro nº é referente a linha e o segundo representa o nº da coluna), porque observando as linhas 1, 2, 3 e 6 manteve o padrão de 3 para 2, e verificando as colunas 1, 2, 4 e 6 também o padrão 3 para 2 se manteve. Somente nas linhas 4 e 5 e colunas 3 e 5 que não estavam seguindo o padrão. Sendo assim possível determinar as posições dos dois alunos que mudaram de lugar sendo eles S43 (que prefere P)  mudou de lugar com S55 (que gosta de M).
+Ao sair da sala e depois retornar ele pode perceber que houve mudança nas posições S43 e S55 (onde S representa a matriz Sala, e o primeiro nº é referente a linha e o segundo representa o nº da coluna), porque observando as linhas 1, 2, 3 e 6 manteve o padrão de 4 para 2, e verificando as colunas 1, 2, 4 e 6 também o padrão 4 para 2 se manteve. Somente nas linhas 4 e 5 e colunas 3 e 5 que não estavam seguindo o padrão. Sendo assim possível determinar as posições dos dois alunos que mudaram de lugar sendo eles S43 (que prefere P)  mudou de lugar com S55 (que gosta de M).
