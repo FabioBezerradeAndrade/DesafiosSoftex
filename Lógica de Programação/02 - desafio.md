@@ -2,12 +2,16 @@ Em uma sala de aula, há vinte e cinco alunos.
 Entre eles, existem os grupos dos que gostam de Português (P) e os que gostam de Matemática (M).
 Eles são divididos conforme a ilustração 1 em anexo.
 
-Depois de um tempo, chegaram mais onze alunos nessa turma e o professor organizou-a conforme a ilustração 2 em anexo.
+- Depois de um tempo, chegaram mais onze alunos nessa turma e o professor organizou-a conforme a ilustração 2 em anexo.
 
-No entanto, o professor se ausentou da sala por cinco minutos e, ao voltar, percebeu que um aluno que gosta de uma das disciplinas havia trocado de lugar com alguém que prefere a outra, e a turma ficou organizada conforme a ilustração 3 em anexo.
+- No entanto, o professor se ausentou da sala por cinco minutos e, ao voltar, percebeu que um aluno que gosta de uma das disciplinas havia trocado de lugar com alguém que prefere a outra, e a turma ficou organizada conforme a ilustração 3 em anexo.
 
-Sabendo que o professor tem dificuldade de memorizar, informe como ele descobriu a cadeira em que houve a troca de alunos e qual a disciplina de cada um.
+- Sabendo que o professor tem dificuldade de memorizar, informe como ele descobriu a cadeira em que houve a troca de alunos e qual a disciplina de cada um.
 
+<details> 
+  <summary>Clique para visualizar a resposta</summary>
+
+### Resposta
 
 Na sala com 25 alunos tínhamos 14 alunos que preferem M e 11 alunos que gostam de P.
 Observando a sala como uma matriz, no primeiro instante temos uma matriz 5x5. Nesse modelo de 25 alunos, a sala estava organizada com o padrão de 3 alunos que preferem uma disciplina para 2 que gostam mais da outra, tanto em linha como em coluna, com exceção da terceira linha e terceira coluna.
