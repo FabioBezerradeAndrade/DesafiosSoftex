@@ -19,7 +19,7 @@ No algoritmo, descreva como será:
 
 ### Resposta
 
-````js
+````vg
 Algoritmo "cadastro"
 var
 nome: caractere
