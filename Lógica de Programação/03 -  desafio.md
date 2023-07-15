@@ -29,7 +29,7 @@ var
 	endereco: caractere
 Inicio
 	nome <- "José Almeida da Silva"
-	cpf <- "02345678900"
+	cpf <- "12345678900"
 	rg <- "9517530"
 	altura <- 1.78
 	endereco <- "Rua A, 380 - Centro - Recife/PE"
