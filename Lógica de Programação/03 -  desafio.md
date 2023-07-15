@@ -19,7 +19,7 @@ No algoritmo, descreva como será:
 
 ### Resposta
 
-````vg
+````
 Algoritmo "cadastro"
 var
 nome: caractere
@@ -36,5 +36,6 @@ Inicio
 
 fimalgoritmo 
 
-Obs: As variáveis "cpf" e "rg" estão como caracteres pois há cpf que começa com zero e nesse caso se fosse real ou inteiro o zero inicial seria desconciderado. Já o rg existem estados que usam letras elém da numeração
+Obs: As variáveis "cpf" e "rg" estão como caracteres pois há cpf que começa com zero e nesse caso se fosse real
+ou inteiro o zero inicial seria desconciderado. Já o rg existem estados que usam letras além da numeração.
 ````
