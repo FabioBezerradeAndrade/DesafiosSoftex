@@ -22,17 +22,17 @@ No algoritmo, descreva como será:
 ````
 Algoritmo "cadastro"
 var
-nome: caractere
-cpf: caractere
-rg: caractere
-altura: real
-endereco: caractere
+	nome: caractere
+	cpf: caractere
+	rg: caractere
+	altura: real
+	endereco: caractere
 Inicio
 	nome <- "José Almeida da Silva"
-   cpf <- "02345678900"
-   rg <- "9517530"
-   altura <- 1.78
-   endereco <- "Rua A, 380 - Centro - Recife/PE"
+	cpf <- "02345678900"
+	rg <- "9517530"
+	altura <- 1.78
+	endereco <- "Rua A, 380 - Centro - Recife/PE"
 
 fimalgoritmo 
 
