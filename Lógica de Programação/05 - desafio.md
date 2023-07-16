@@ -8,9 +8,13 @@ Instruções do projeto
 - Dica: Lembre-se de substituir as variáveis "pontos", "moedas" e "enfrentou_chefe" pelos valores correspondentes para cada jogador.
 
 Expressões:
+
 (  ) Jogador 1: (pontos >= 100) and (moedas >= 5) and (enfrentou_chefe == Sim)
+
 (  ) Jogador 2: (pontos >= 100) and (moedas >= 5) and (enfrentou_chefe == Não)
+
 (  ) Jogador 3: (pontos < 100) or (moedas < 5) or (enfrentou_chefe == Sim)
+
 (  ) Jogador 4: (pontos != 100) or (moedas != 5) or not(enfrentou_chefe == Não)
 
 
