@@ -12,7 +12,7 @@ No sistema, todos os valores devem estar armazenados em variáveis.
 
 https://blockly-demo.appspot.com/static/demos/code/index.html#jehnbh
 
-<img src='statusAluno.png'>
+<img src="img/statusAluno.png">
 
 ````
 
