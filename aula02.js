@@ -7,7 +7,7 @@ var num = 5
     console.log('é positango')
 }
  */
-if ((num % 2 === 0) and (num % 3 === 0) and (num % 5 === 0)){
+if ((num % 2 === 0) & (num % 3 === 0) & (num % 5 === 0)){
     console.log('é dividido por 2 , 3 e 5');
 } else if {
     console.log('não é dividio nem por 2 nem por 3 e nem por 5');
