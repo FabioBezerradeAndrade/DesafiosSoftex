@@ -7,7 +7,7 @@ Faça um código, utilizando o Google Blockly, que execute a contagem regressiva
 https://blockly-demo.appspot.com/static/demos/code/index.html?lang=en#4p98q4
 
 
-<img src = '/img/detonador.png'>
+<img src = "img/detonador.png">
 
 ````
 
