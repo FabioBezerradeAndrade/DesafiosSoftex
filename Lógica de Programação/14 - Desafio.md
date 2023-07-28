@@ -5,7 +5,7 @@
 
 https://blockly-demo.appspot.com/static/demos/code/index.html?lang=en#dn8kaf
 
-<img src="img/calculadora.png">
+<img src = 'img/calculadora.png'>
 
 ````
 
