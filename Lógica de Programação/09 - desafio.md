@@ -11,7 +11,7 @@ https://blockly-demo.appspot.com/static/demos/code/index.html?lang=en#nzckko
 
 <img src = "img/cadastro.png">
 
-````
+````js
 var nome, idade, altura, maior_de_idade;
 
 
