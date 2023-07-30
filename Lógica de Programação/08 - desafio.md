@@ -10,7 +10,7 @@ https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pt-br#ex7y6c
 
 <img src = "img/notaAluno.png">
 
-````
+````js
 
 var nota1, nota2, media;
 
