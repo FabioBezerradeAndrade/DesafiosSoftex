@@ -18,10 +18,10 @@ Então, o transporte escolhido foi a bicicleta.
 Para chegar ao resultado de cada uma das opções, use o modelo em anexo.
 ### Resposta
 
-````js
+````
 
 algoritmo "Adivinhar transporte"                                                              
-var                                                                                           
+var
    resposta : caractere                                                                       
                                                                                               
 inicio                                                                                        
