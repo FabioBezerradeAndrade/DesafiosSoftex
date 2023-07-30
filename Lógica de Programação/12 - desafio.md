@@ -9,7 +9,7 @@ https://blockly-demo.appspot.com/static/demos/code/index.html?lang=en#4p98q4
 
 <img src = "img/detonador.png">
 
-````
+````js
 
 var i;
 
