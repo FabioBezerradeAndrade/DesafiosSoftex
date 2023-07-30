@@ -19,7 +19,7 @@ https://blockly-demo.appspot.com/static/demos/code/index.html?lang=en#426fzd
 
 <img src="img/categoriaHabilitacao.png">
 
-````
+````js
 
 var numRodas, peso, numOcupantes;
 
