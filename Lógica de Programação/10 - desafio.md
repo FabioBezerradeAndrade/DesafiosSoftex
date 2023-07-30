@@ -14,7 +14,7 @@ https://blockly-demo.appspot.com/static/demos/code/index.html#jehnbh
 
 <img src="img/statusAluno.png">
 
-````
+````js
 
 var nomeAluno, nota1, nota2, faltasAluno, mediaAluno, statusAluno;
 
