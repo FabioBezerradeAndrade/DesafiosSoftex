@@ -6,7 +6,7 @@
 
 ### Resposta
 
-````
+````js
 
 let nomeCompleto ,  anoNascimento , anoAtual  , verAnoNascimento;
 anoAtual = new Date().getFullYear();
