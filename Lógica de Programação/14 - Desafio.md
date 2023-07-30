@@ -19,7 +19,7 @@ https://blockly-demo.appspot.com/static/demos/code/index.html?lang=en#dn8kaf
 
 <img src = "img/calculadora.png">
 
-````
+````js
 
 var n1, n2, opt, simbol, num1, num2, resultado;
 
