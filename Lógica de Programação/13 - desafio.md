@@ -9,7 +9,8 @@ Faça uma função calculadora de dois números com três parâmetros: os dois p
 Caso seja inserido um número de operação que não exista, o resultado deverá ser 0.
 
 ### Resposta
-````
+
+````js
 
 function calc (num1 , num2 , operador){
     switch (operador){
