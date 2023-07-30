@@ -6,7 +6,7 @@ Para ajudar esse aluno, você deve elaborar um algoritmo que solicite que seja d
 
 ### Resposta
 
-````
+````js
 
 algoritmo "Tabuada"                                  
 var                                                  
