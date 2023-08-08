@@ -36,13 +36,42 @@
 //Ao terminar, imprima novamente todas as informações das três listas.
 
 
-let nome = ['Albert' , 'Bernardete' , 'Creuza' , 'Diego' , 'Estevão' , 'Fábio' ,  'Geraldo' , 'Heitor' , 'Igor' , 'Jeremias'];
-let idade = [15 , 20 , 17 , 68 , 55 , 60 , 45 , 74 , 99 , 7 ];
-let cor_favorita = ['azul' , 'verde' , 'amarela' , 'verde' , 'marrom' , 'preta' , 'laranja' , 'roxa' , 'azul' , 'branca' ];
+// let nome = ['Albert' , 'Bernardete' , 'Creuza' , 'Diego' , 'Estevão' , 'Fábio' ,  'Geraldo' , 'Heitor' , 'Igor' , 'Jeremias'];
+// let idade = [15 , 20 , 17 , 68 , 55 , 60 , 45 , 74 , 99 , 7 ];
+// let cor_favorita = ['azul' , 'verde' , 'amarela' , 'verde' , 'marrom' , 'preta' , 'laranja' , 'roxa' , 'azul' , 'branca' ];
 
-console.log(nome , idade , cor_favorita);
+// console.log(nome , idade , cor_favorita);
 
-idade.splice(8 , 1 , 47);
-cor_favorita.splice(1 , 1 , 'rosa');
+// idade.splice(8 , 1 , 47);
+// cor_favorita.splice(1 , 1 , 'rosa');
 
-console.log(nome , idade , cor_favorita);
+// console.log(nome , idade , cor_favorita);
+
+
+let anoAtual = new Date().getFullYear();
+
+class Pessoa {
+   constructor(nome , anoNascimento , filho) {
+       this.nome = nome;
+       this.anoNascimento = anoNascimento;
+       this.filho = filho;
+       this.#calcularIdade();
+
+   }
+   #calcularIdade() {
+       this.idade = anoAtual - this.anoNascimento;
+      }
+} 
+
+var pessoas = [];
+
+pessoa1 = new Pessoa('Francisco', 1992, 0);
+pessoas.push(pessoa1);
+
+pessoa2 = new Pessoa('Chiquinha' , 1899, 10);
+pessoas.push(pessoa2);
+
+pessoa3 = new Pessoa('Humberto', 1985, 1)
+pessoas.push(pessoa3);
+
+console.log(pessoas);
