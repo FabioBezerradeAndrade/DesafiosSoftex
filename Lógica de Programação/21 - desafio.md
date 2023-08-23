@@ -8,7 +8,7 @@ Codifique a solução mais eficiente para buscar o número 20 no array.
 
 ### Solução
 
-Como é um pequeno vetor podemos usar a solução de busca linear, mas deixarei as duas soluções.
+Como é um pequeno vetor e não ordenado, podemos usar a solução de busca linear, mas deixarei as duas soluções.
 
 #### Usando método de busca linear 
 ````js 
