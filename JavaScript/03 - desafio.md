@@ -10,4 +10,4 @@ Escreva, no mínimo, um parágrafo mostrando seu ambiente configurado, explique 
 
 O meu ambiente é composto pelo VScode (Virtual Studio Code) e o módulo readline-sync, este para poder fazer interação / inserção de dados, simulando lado cliente. Instalado também o Node.js
 Instalei o gitkraken para controlar as versões dos arquivos no repositório que venho usando para resposder as questões / desafios,.
-Em sala de aula (aula presencial) utilizamos o Codespace do próprio Github para gerarmos os códigos e manter o repositório atualizado com as tarefas em sala de aula.
+Em sala de aula (aula presencial) utilizamos o Codespace do Github para gerarmos os códigos e manter o repositório atualizado com as tarefas em sala de aula. O motivo de não usar somente o Codespace (que já está pronto para uso e não precisa instalar local no pc) é o fato dele ser limitado por tempo (120 horas / mês).
