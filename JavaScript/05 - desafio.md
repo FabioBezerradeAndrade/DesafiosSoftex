@@ -13,7 +13,7 @@ let nota1, nota2, nota3 , media;
 let checkNota1 = false, checkNota2 = false, checkNota3 = false;
 
 // Enquanto variável checkNota estiver com valor falso e a variável nota com valor maior que 10 ou menor que 0, será emitido mensagem do erro e o laço continuará solicitando um valor válido.
-// Caso valor seja válido, a variável checkNota receberá valor true e o valor digitado será armazenado na variável nota e, o laço termina, pasando para o próximo.
+// Caso valor seja válido, a variável checkNota receberá valor true e o valor digitado será armazenado na variável nota e, o laço termina, pasando para o próximo laço.
 while(checkNota1 == false) {
     try {
         nota1 = parseFloat(require('readline-sync').question('Digite a primeira nota: \n'));
