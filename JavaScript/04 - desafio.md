@@ -31,7 +31,7 @@ var pessoas = [];
 pessoa1 = new Pessoa('Sivirino Ambroino da Silveira', 1320.18, 2002, false);
 pessoas.push(pessoa1);
 
-console.log(typeof(pessoa1.nome), typeof(pessoa1.salario),  typeof(pessoa1.idade), typeof(pessoa1.diploma));
+console.log(typeof(pessoa1.nome), typeof(pessoa1.salario), typeof(pessoa1.idade), typeof(pessoa1.diploma));
 console.table(pessoas);
 
 
