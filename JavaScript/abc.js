@@ -5,9 +5,24 @@ const livros = [];
 const found = false;
 const novaIteracao = false;
 let opcaoMenu
-let opcaoBusca
 
+class Livro2 {
 
+    constructor(titulo, autor, paginas){
+        this.titulo = titulo;
+        this.autor = autor;
+        this.paginas = paginas;
+    }
+
+    listarLivros() {
+        console.log('listando os livros...');
+        console.log('listando os livros...');
+        console.log('listando os livros...');
+        console.log('listando os livros...');
+        console.log('listando os livros...');
+    }
+}
+let Livro = new Livro2("nome do livro", "Waldeck", 20);
 
 function cont() {
     console.log('****************************************');
@@ -60,12 +75,10 @@ function subMenu() {
 function adicionarLivro() {
     console.clear()
     console.log('********* CADASTRO DE LIVROS ***********');
+    let tituloLivro = readline.question('Digite o titulo / nome do Livro: ');
+    let autorLivro = readline.question('Digite o Autor: ');
+    let numPaginas = readline.questionInt('Entre com o numero de paginas: ')
     geradorID++;
-    do {
-        let tituloLivro = readline.question('Digite o titulo / nome do Livro: ');
-        let autorLivro = readline.question('Digite o Autor: ');
-        let numPaginas = readline.questionInt('Entre com o numero de paginas: ', {limitMessage: 'Digite um numero valido'});
-    } while (checkInfo);
     const livro = {
         titulo: tituloLivro,
         autor: autorLivro,
@@ -74,11 +87,7 @@ function adicionarLivro() {
     }
     livros.push(livro);
     console.clear();
-    console.log(`Cadastro do Livro  realizado!!!`);
-    console.log(`ID: ${l.id} => Titulo: ${l.titulo}`);
-    console.log(`\t- Autor: ${l.autor}`);
-    console.log(`\t- Pag: ${l.paginas}`);
-    
+    console.log(`Cadastro do Livro "${tituloLivro}" realizado!!!`);
     cont()
 }
 
@@ -98,30 +107,16 @@ function listarLivros() {
 function procurarLivro() {
     console.clear()
     this.found = found;
-    let searchLivro;
     console.log('********** BUSCAR LIVRO ***********');
     console.log('Escolha qual metodo da busca: \n');
-    opcaoBusca = readline.questionInt('1 titulo , 2 autor , 3 id', {limitMessage: 'Digite um numero valido'});
-    switch (opcaoBusca) {
-        case 1:
-            searchLivro = readline.question('Digite titulo do Livro: ');
-            break;
-        case 2:
-            searchLivro = readline.question('Digite o nome do Autor: ');
-            break;
-        case 3:
-            searchLivro = readline.questionInt('Digite ID do Livro: ', {limitMessage: 'Digite um numero valido'});
-        default:
-            break;
-    }
-
+    let searchLivro = readline.questionInt('Digite ID do Livro: ');
     for (const l of livros) {
-        if (l.id == searchLivro || l.autor == searchLivro || l.titulo == searchLivro) {
+        if (l.id == searchLivro) {
             this.found = true;
             console.log(`ID: ${l.id} => Titulo: ${l.titulo}`);
             console.log(`\t- Autor: ${l.autor}`);
             console.log(`\t- Pag: ${l.paginas}`);
-            //cont()
+            cont()
             console.clear()
         }
     }
@@ -138,7 +133,7 @@ function alterarLivro() {
     console.clear()
     this.found = found;
     console.log('***** ALTERAR CADASTRO DE UM LIVRO *****');
-    let change = readline.questionInt('Digite o ID do livro a ser alterado: ', {limitMessage: 'Digite um numero valido'});
+    let change = readline.questionInt(`Digite o ID do livro a ser alterado: `)
     for (const l of livros) {
         if (l.id == change) {
             this.found = true;
@@ -148,7 +143,7 @@ function alterarLivro() {
             console.log('\nEntre com os novos dados: \n');
             l.titulo = readline.question('Digite o titulo: ');
             l.autor = readline.question('Digite o nome do Autor(a): ');
-            l.paginas = readline.questionInt('Digite quantidade de paginas: ', {limitMessage: 'Digite um numero valido'});
+            l.paginas = readline.questionInt('Digite quantidade de paginas: ');
             console.clear()
             console.log('***** ALTERAR CADASTRO DE UM LIVRO *****');
             console.log('Dados alterados: \n');
@@ -172,7 +167,7 @@ function excluirLivro() {
     console.clear()
     this.found = found;
     console.log('***** EXCLUIR CADASTRO DE UM LIVRO *****');
-    let excluirLivro = readline.questionInt('Digite o ID do Livro a ser excluido: ', {limitMessage: 'Digite um numero valido'});
+    let excluirLivro = readline.questionInt(`Digite o ID do Livro a ser excluido: `)
     for (const l of livros) {
         if (l.id == excluirLivro) {
             this.found = true;
@@ -196,7 +191,7 @@ let loop = true;
 do {
     console.clear()
     menu();
-    opcaoMenu = readline.questionInt('Escolha uma opcao: ', {limitMessage: 'Digite um numero valido'});
+    opcaoMenu = readline.questionInt('Escolha uma opcao: ');
     switch (opcaoMenu) {
         case 0:
             console.clear();
@@ -206,12 +201,13 @@ do {
         case 1:
             if (geradorID == null) {
                 console.clear()
-                console.log('Nao ha registro!!!');
+                // console.log('Nao ha registro!!!');
+                Livro.listarLivros();
                 cont()
-                console.clear()
+                // console.clear()
                 break
             } else {
-                listarLivros();
+                //listarLivros();
                 cont()
                 console.clear()
                 break;
@@ -223,7 +219,7 @@ do {
                 console.clear()
                 subMenu()
                 this.novaIteracao = novaIteracao;
-                opcaoMenu2 = readline.questionInt('Escolha uma opcao: ', {limitMessage: 'Digite um numero valido'});
+                opcaoMenu2 = readline.questionInt('Escolha uma opcao: ');
                 switch (opcaoMenu2) {
                     case 1:
                         this.novaIteracao = true;
@@ -244,7 +240,7 @@ do {
             do {
                 subMenu()
                 this.novaIteracao = novaIteracao;
-                opcaoMenu2 = readline.questionInt('Escolha uma opcao: ', {limitMessage: 'Digite um numero valido'});
+                opcaoMenu2 = readline.questionInt('Escolha uma opcao: ');
                 switch (opcaoMenu2) {
                     case 1:
                         this.novaIteracao = true;
@@ -265,7 +261,7 @@ do {
             do {
                 subMenu()
                 this.novaIteracao = novaIteracao;
-                opcaoMenu2 = readline.questionInt('Escolha uma opcao: ', {limitMessage: 'Digite um numero valido'});
+                opcaoMenu2 = readline.questionInt('Escolha uma opcao: ');
                 switch (opcaoMenu2) {
                     case 1:
                         this.novaIteracao = true;
@@ -286,7 +282,7 @@ do {
             do {
                 subMenu()
                 this.novaIteracao = novaIteracao;
-                opcaoMenu2 = readline.questionInt('Escolha uma opcao: ', {limitMessage: 'Digite um numero valido'});
+                opcaoMenu2 = readline.questionInt('Escolha uma opcao: ');
                 switch (opcaoMenu2) {
                     case 1:
                         this.novaIteracao = true;

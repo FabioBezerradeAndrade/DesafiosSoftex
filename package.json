@@ -1,5 +1,16 @@
 {
-  "dependencies": {
+  "name": "desafiosSoftex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "crudBiblioteca.js",
+    "dependencies": {
     "readline-sync": "^1.4.10"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node JavaScript/crudBiblioteca"
+  },
+  "keywords": [],
+  "author": "Arleson, Fábio, Marillia ",
+  "license": "ISC"
 }
