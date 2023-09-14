@@ -3,7 +3,7 @@ let geradorID = null;
 const livros = [];
 const found = false;
 const novaIteracao = false;
-let controleMenu
+let opcaoMenu
 
 function cont() {
     console.log('****************************************');
@@ -23,7 +23,7 @@ function menu() {
 }
 
 function subMenu() {
-    switch (controleMenu) {
+    switch (opcaoMenu) {
         case 2:
             console.log('********* CADASTRO DE LIVROS ***********');
             console.log('**************** OPCAO *****************');
@@ -171,8 +171,7 @@ let loop = true;
 do {
     console.clear()
     menu();
-    let opcaoMenu = readline.questionInt('Escolha uma opcao: ');
-    controleMenu = opcaoMenu;
+    opcaoMenu = readline.questionInt('Escolha uma opcao: ');
     switch (opcaoMenu) {
         case 0:
             console.clear();
