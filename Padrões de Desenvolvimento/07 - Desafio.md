@@ -39,7 +39,7 @@ class SistemaSeguranca {
 
 const sistemaSeguranca = SistemaSeguranca.getInstance();
 
-console.log(sistemaSeguranca.acessarBaseSecreta("password"));
-console.log(sistemaSeguranca.acessarBaseSecreta("P4$$w0rd"));
+sistemaSeguranca.acessarBaseSecreta("password");
+sistemaSeguranca.acessarBaseSecreta("P4$$w0rd");
 
 ````
