@@ -15,8 +15,8 @@ Os requisitos do projeto devem ser:
 class Veiculo {
     constructor(private modelo: string , private marca: string , private cor: string , private numeroRodas: number) {}
 
+    // Clona o objeto
     clone() {
-        // Cria uma cópia rasa (shallow copy) do objeto
         return new Veiculo (this.modelo, this.marca, this.cor, this.numeroRodas);
     }
 
