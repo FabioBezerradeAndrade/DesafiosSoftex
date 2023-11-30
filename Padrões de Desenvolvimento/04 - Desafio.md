@@ -36,8 +36,8 @@ class AdaptadorPato extends Galinha {
         this.pato = pato;
     }
 
-    cacarejar() {
-        this.pato.grasnar();
+    grasnar() {
+        this.galinha.cacarejar();
     }
 }
 
@@ -45,15 +45,16 @@ class AdaptadorPato extends Galinha {
 
 const pato = new Pato();
 const galinha = new Galinha();
-const adaptadorPato = new AdaptadorPato(pato);
+const adaptadorPato = new AdaptadorPato(galinha);
 
+console.log(Galinha);
+galinha.cacarejar();
 console.log(Pato);
 pato.nadar();
 pato.voar();
 pato.grasnar();
-
-console.log(Galinha);
-galinha.cacarejar();
+console.log("Uso do adaptador:");
 adaptadorPato.cacarejar();
+
 
 ````
