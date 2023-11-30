@@ -60,7 +60,7 @@ class Calculator {
 let strategy;
 const num1 = parseInt(readlineSync.question("Digite o primeiro número:"));
 const num2 = parseInt(readlineSync.question("Digite o segundo número:"));
-const operation = readlineSync.question("Digite a operação (+, -, *, /):");
+const operation = readlineSync.question("Escolha o operador: +, -, * ou /:");
 switch (operation) {
     case '+':
         strategy = new AdditionStrategy();
@@ -82,13 +82,7 @@ switch (operation) {
 if (strategy) {
     const calculator = new Calculator(strategy);
     const result = calculator.calculate(num1, num2);
-    console.log(`Resultado da operação: ${result}`);
+    console.log(`O resultado é: ${result}`);
 }
-
-
-
-
-
-
 
 ````
