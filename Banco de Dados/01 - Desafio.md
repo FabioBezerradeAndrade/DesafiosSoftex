@@ -6,6 +6,8 @@ Ao terminar, envie o MER criado no BrModelo e o Modelo Relacional criado no MySQ
 
 ### Resposta
 
+
+<img src = "img/desafio01.png">
 ````sql
 
 create database biblioteca;
