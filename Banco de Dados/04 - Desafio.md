@@ -15,6 +15,32 @@ Entregáveis:
 
 ### Resposta
 
+01  Consulta geral da tabela transações.
+
+<img src = "img/desafio0401.png">
+
+02 e 03 Alterar nomes das colunas para melhor leitura e compreenção da tabela.
+
+<img src = "img/desafio0402 e 03.png">
+
+04 Ordenar de forma decrescente, facilitando identificar as venda de maior para menor valor.
+
+<img src = "img/desafio0404.png">
+
+05 Trabalhar a tabela para obter médias, maximos, minimos e total das vendas
+
+<img src = "img/desafio0405.png">
+
+06 Agrupar por produto obtendo a média
+
+<img src = "img/desafio0406.png">
+
+07 Relatório com consulta combinada, agrupando por categoria.
+
+<img src = "img/desafio0407.png">
+
+Script SQL
+
 ````sql
 
 create database VendasDB;
