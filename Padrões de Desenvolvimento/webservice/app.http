@@ -21,7 +21,4 @@ Content-Type: application/json
 }
 
 #### Excluir usuario
-DELETE http://localhost:3333/usuarios/2
-
-
-###
+DELETE http://localhost:3000/usuarios/02
